@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "sakana-clientmod",
+  "version": "${version}",
+  "name": "sakana-clientmod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/iruka541/sakana-client"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/sakana-clientmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "sakana.local.sakanaclientmod.client.Sakana_clientmodClient"
+    ],
+    "main": [
+      "sakana.local.sakanaclientmod.Sakana_clientmod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
